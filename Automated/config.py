@@ -1,4 +1,4 @@
-from msilib.schema import Directory
+# from msilib.schema import Directory
 from selenium import webdriver
 
 
@@ -14,7 +14,7 @@ filter_s = {
 
 
 def web_driver(options):
-    return  webdriver.Chrome(executable_path=r"C:\Users\Admin\Desktop\Project\Web Scrapping\Automated\chromedriver.exe",chrome_options=options)
+    return  webdriver.Chrome(executable_path=r"/home/sirius/All/Python/Web-Scraping/Automated/chromedriver.exe",chrome_options=options)
     
 def web_driver_options():
     return webdriver.ChromeOptions();

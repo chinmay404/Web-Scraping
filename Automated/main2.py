@@ -84,7 +84,6 @@ class API:
 
  
 if __name__=='__main__':
-
     key = API(Product_name,filter,Deafult_url)
     # print(key.filter_P)
     # print(key.to_search)
